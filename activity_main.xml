@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fitsSystemWindows="true"
+tools:context=".MainActivity">
+
+    <TextView
+    android:text="Name/Helmy Akram Helmy"
+    android:textSize="32sp"
+    android:textColor="@color/black"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_below="@id/bubbles"
+    android:id="@+id/nameTxt"
+    />
+    <TextView
+    android:text="Age/20 "
+    android:textSize="32sp"
+    android:textColor="@color/black"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_below="@+id/nameTxt"
+    android:id="@+id/ageTxt"
+    />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ID/20221459753"
+    android:textSize="32sp"
+    android:textColor="@color/black"
+    android:layout_below="@+id/ageTxt"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/idTxt"
+    />
+
+    <ImageView
+        android:id="@+id/bubbles"
+        android:layout_width="176dp"
+        android:layout_height="262dp"
+        android:layout_centerInParent="true"
+        android:src="photo.jpg" />
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_below="@+id/idTxt"
+    android:text="Sign In"
+    android:textSize="32sp"
+    android:id="@+id/signIn"
+    />
+
+</RelativeLayout>
